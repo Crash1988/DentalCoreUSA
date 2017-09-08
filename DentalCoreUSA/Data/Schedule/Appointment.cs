@@ -32,8 +32,8 @@ namespace DentalCoreUSA.Data.Schedule
         public int visitStatusfieldOptionId { get; set; }
         public virtual VisitStatus visitStatus { get; set; }
 
-       // public int chairId { get; set; }
-        //public virtual Chair chair { get; set; }
+        public int chairId { get; set; }
+        public virtual Chair chair { get; set; }
 
     }
 }
