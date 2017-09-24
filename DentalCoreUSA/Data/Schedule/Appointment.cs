@@ -23,8 +23,7 @@ namespace DentalCoreUSA.Data.Schedule
             //public virtual Doctor doctor { get; set; }
 
             //public virtual Resource resource { get; set; }
-
-        // type of  appointment
+                
         public int visitTypefieldOptionId { get; set; }
         public virtual VisitType visitType { get; set; }
 
